@@ -1,0 +1,36 @@
+{
+  "name": "strong-auth-backend",
+  "version": "2.0.0",
+  "description": "Production-grade authentication & authorization backend",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "node --test",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.0.0",
+    "mongoose-autopopulate": "^1.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "argon2": "^0.41.0",
+    "bcryptjs": "^2.4.3",
+    "express-validator": "^7.0.0",
+    "helmet": "^7.0.0",
+    "cors": "^2.8.5",
+    "cookie-parser": "^1.4.6",
+    "express-rate-limit": "^7.0.0",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^16.0.0",
+    "compression": "^1.7.4",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "eslint": "^9.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
